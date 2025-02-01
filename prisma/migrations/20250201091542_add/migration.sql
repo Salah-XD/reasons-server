@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Cart" ADD COLUMN     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;
+
+-- AlterTable
+ALTER TABLE "CartItem" ALTER COLUMN "quantity" SET DEFAULT 1;
